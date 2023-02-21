@@ -1,7 +1,10 @@
 #include "main.h"
 
 /**
- * print_alphabet
+ * print_alphabet - check description
+ *
+ * Description: print alphabet in lowercase
+ *
  * Retunr: void
  */
 void print_alphabet(void)
