@@ -10,7 +10,7 @@
  */
 int main(void)
 {
-	long int num1 = 1, num2 = 2, sum, total;
+	long int num1 = 1, num2 = 2, sum, total = 0;
 
 	while (1)
 
