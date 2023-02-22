@@ -16,7 +16,14 @@ int main(void)
 	{
 		next = num1 + num2;
 
-		printf("%ld, ", next);
+		if (i != 50)
+		{
+			printf("%ld, ", next);
+		}
+		else
+		{
+			printf("%ld", next);
+		}
 
 		num1 = num2;
 		num2 = next;
