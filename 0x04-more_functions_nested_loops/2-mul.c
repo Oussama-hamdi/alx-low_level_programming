@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * mul: multiply two digits
+ * mul - multiply two digits
  * @a: first digit
  * @b: second digit
  * Return: a * b
