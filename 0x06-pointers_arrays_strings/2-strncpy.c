@@ -6,7 +6,7 @@
  * @dest: string to copy too
  * @src: string src
  * @n: number of bytes
- * 
+ *
  * Return: char
  */
 
