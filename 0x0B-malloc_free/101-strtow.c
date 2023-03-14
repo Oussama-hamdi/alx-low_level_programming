@@ -33,6 +33,9 @@ char **strtow(char *str)
 		return (NULL);
 	len = strlen(str);
 	words_count = count_words(str);
+
+	if (!words_count)
+		return (NULL);
 	words = (char **) malloc((words_count + 1) * sizeof(char *));
 	if (!words)
 		return (NULL);
