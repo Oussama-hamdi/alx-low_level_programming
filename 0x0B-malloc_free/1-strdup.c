@@ -9,20 +9,15 @@
 
 char *_strdup(char *str)
 {
-	char *st;
-	int len = strlen(str);
+	char *copy;
 
 	if (str == NULL)
 		return (NULL);
 
-	st = malloc((len + 1) * sizeof(char));
+	copy = strdup(str);
 
-	if (st == NULL)
+	if (copy == NULL)
 		return (NULL);
 
-	strncpy(st, str, len);
-	st[len] = '\0';
-
-
-	return (st);
+	return (copy);
 }
