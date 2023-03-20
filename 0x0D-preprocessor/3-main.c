@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 #include "3-function_like_macro.h"
 #include "3-function_like_macro.h"
 
