@@ -7,7 +7,7 @@
  * @separator: the separator pointer
  * @n: number of numbers to print
  * @...: parameters
- * Return: All arguments separated by a string if found
+ * Return: nothing
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
